@@ -1,0 +1,8 @@
+<p>
+  page1 works!
+</p>
+<div>
+  <a [routerLink]="{outlets: {item: 'item1'}}" routerLinkActive="active">Item 1</a>
+  <a [routerLink]="{outlets: {item: 'item2'}}" routerLinkActive="active">Item 2</a>
+</div>
+<router-outlet name="item"></router-outlet>
